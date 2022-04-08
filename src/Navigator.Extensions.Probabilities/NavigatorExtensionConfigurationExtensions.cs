@@ -10,7 +10,12 @@ namespace Navigator.Extensions.Probabilities;
 /// </summary>
 public static class NavigatorExtensionConfigurationExtensions
 {
-    public static NavigatorConfiguration Interop(this NavigatorExtensionConfiguration extensionConfiguration)
+    /// <summary>
+    /// Configures the probabilities extension.
+    /// </summary>
+    /// <param name="extensionConfiguration"></param>
+    /// <returns></returns>
+    public static NavigatorConfiguration Probabilities(this NavigatorExtensionConfiguration extensionConfiguration)
     {
         return extensionConfiguration.Extension(
         configuration =>
