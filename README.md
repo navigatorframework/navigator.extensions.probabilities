@@ -1,7 +1,8 @@
 # Navigator.Extensions.Probabilities
+
 🔛 Specify the probabilities of an action being triggered with ease
 
-# Usage
+## Usage
 
 ```c#
 ...
@@ -18,8 +19,8 @@ var app = builder.Build();
 ...
 ```
 
+## License
 
-# License
 Navigator Extensions Probabilities
 Copyright (C) 2019-2021  [Lucas Maximiliano Marino](https://lucasmarino.me)
 
